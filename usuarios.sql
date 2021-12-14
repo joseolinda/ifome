@@ -1,3 +1,7 @@
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY "aluno";
+
+  
+
 CREATE TABLE users (
 
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
